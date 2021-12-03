@@ -1,0 +1,416 @@
+﻿<!doctype html>
+<html>
+<head>
+<title>Essential Services Registration Form</title>
+<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <link rel="stylesheet" href="pathcss"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">   
+<link rel="stylesheet" href="html.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">   
+<style>
+
+.centerdiv{
+   height: 25vh;
+   display: flex;
+   justify-content: center;
+   align-items: ;
+    margin: 2px 4px px 3px; 
+}
+r{
+    height: 100px;
+    width:  100px;
+    background-color: #f5f6fa;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+    line-height: 100px;
+    box-shadow: 2px 4px 3px 3px  #dcdde1;
+    
+}
+r i{
+     transition: all 0.3s linear;
+}
+ r:hover i{
+  transform: scale(1.4);
+}
+.fa-instagram{
+ color: #e84393;
+}
+
+.fa-youtube{
+  color: #e84118;
+}
+.fa-linkdin{
+ color: #0097e6;
+}
+.fa-teitter{
+  color: #0097e6 
+} 
+.maindiv{
+  padding:10px 0px 5px 0px;
+  animation: flash .9s linear infinite ;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="container">
+<div class="row">   
+<div class="col-sm-12 sbox">
+
+<center>
+<img src="dfg.png"width=100px height=100px">
+</center>
+
+</div>
+</div>
+
+
+<div class="row">   
+<div class="col-sm-12">
+<div class="maindiv"> 
+<center><h2>Travel Pass</h2></center>
+</div>
+</div>
+</div>
+<br>
+<div class="pp">
+<div class="row">
+<div class="col-sm-12 col-lg-3 ">
+<div class="form group form-group-lg">
+<label for="जिल्हा / पोलीस आयुक्तालय : *">जिल्हा / पोलीस आयुक्तालय : *</label> 
+<select class="form-control">
+<option value="select District/police Commissionerate">Select District/police Commissionerate</option>
+<option value="Wardha">Wardha</option>
+<option value="Akola">Akola</option>
+<option value="Nagpur">Nagpur</option>
+<option value="Beed">Beed</option>
+<option value="Latur">Latur</option>
+<option value="Washim">Washim</option>
+</select>
+</div>
+</div>
+
+<div class="col-sm-12 col-lg-3 ">
+<div class="form group form-group-lg">
+<lable for="नाव : *"> नाव : * </lable><input type="text" class="form-control" name="नाव : *" placeholder="Your Name"id="bk"/>
+</div>
+</div>
+
+
+<div class="col-sm-12 col-lg-3 ">
+<div class="form group form-group-lg">
+च्या तारखेपासून : *<input type="date" on input ="result.value=send.value" class="form-control" name="च्या तारखेपासून : *" placeholder="2020-07-29"id="cc"/>
+</div>
+</div>
+
+
+<div class="col-sm-12 col-lg-3 ">
+<div class="form group form-group-lg">
+च्या तारखेपर्यंत : *<input type="date" on input ="result.value=send.value" class="form-control"	 name="च्या तारखेपर्यंत : *" placeholder="2020-07-31"id="vv"/> 
+<br>
+</div>
+</div>
+</div>
+
+
+<div class="row">
+<div class="col-sm-12 col-lg-3">
+<div class="form group form-group-lg">
+मोबाईल : *<input type="tel" name="मोबाईल : *" placeholder="10 Digit Valid Mobile No" class="form-control" maxlength="10"id="mm"/>
+
+</div>
+</div>
+
+
+<div class="col-sm-12 col-lg-3">
+<div class="form group form-group-lg">
+<lable for="प्रवासाचे कारण : *">प्रवासाचे कारण : *</lable> 
+<select class="form-control">
+<option value="Select Travel Type">Select Travel Type</option>
+<option value="Death Of First Relative">Death Of First Relative</option>
+<option value="Extreme Medical emergency">Extreme Medical emargency</option>
+<option value="Stranded Student">Stranded Student</option>
+<option value="Stranded individual">Stranded individual</option>
+<option value="Extreme emergency case/issue">Extreme emergency case/issue</option>
+<option value="other">other</option>
+</select>
+</div>
+</div>
+
+
+
+<div class="col-sm-12 col-lg-6">
+<div class="form group form-group-lg">
+
+प्रवासाचे कारण / उददेश (In Brief) : *<input type="text" class="form-control" name="प्रवासाचे कारण / उददेश (In Brief) : *" placeholder="Enter Reason/Purpose"id="kk"/>
+<br>
+</div>
+</div>
+</div>
+
+
+
+<div class="row">
+<div class="col-sm-12 col-lg-3">
+<div class="form group form-group-lg">
+<lable for="वाहनाचा प्रकार : *">वाहनाचा प्रकार : *</lable>
+<select class="form-control">
+
+<option value="Enter Vehicle Type">Enter Vehicle Type</option>
+<option value="Train">Train</option>
+<option value="Public Bus">Public Bus</option>
+<option value="Private Bus">Private Bus</option>
+<option value="Tracktor">Tracktor</option>
+<option value="Taxi/Cab">Taxi/Cab</option>
+<option value="other">other</option>
+
+</select>
+</div>
+</div>
+
+<div class="col-sm-12 col-lg-3">
+<div class="form group form-group-lg">
+वाहन क्रमांक : *<input type="text" class="form-control" name="वाहन क्रमांक : *" placeholder="MH 04 AA 1342 / NA"id="gg"/>
+</div>
+</div>
+
+
+<div class="col-sm-12 col-lg-6">
+<div class="form group form-group-lg">
+सध्याचा पत्ता : *<input type="text" class="form-control" name="सध्याचा पत्ता : *" placeholder="Enter Current Address"id="ll"/> 	
+<br>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="row">
+<div class="col-sm-12 col-lg-3">
+<div class="form group form-group-lg">
+
+ई-मेल :<input type="ई-मेल :" class="form-control" name="ई-मेल :" placeholder="valid email-id"id="lr"/>
+
+</div>
+</div>
+
+<div class="col-sm-12 col-lg-3">
+<div class="form group form-group-lg">
+
+<lable for="प्रवास प्रारंभ ठिकाण : *">प्रवास प्रारंभ ठिकाण : *</lable>
+<select class="form-control">
+<option value="select Starting Point Disrtrict">select Starting Point Disrtrict</option>
+<option value="Wardha">Wardha</option>
+<option value="Akola">Akola</option>
+<option value="Nagpur">Nagpur</option>
+<option value="Beed">Beed</option>
+<option value="Latur">Latur</option>
+<option value="Washim">Washim</option>
+</select>
+
+</div>
+</div>
+
+
+<div class="col-sm-12 col-lg-3">
+<div class="form group form-group-lg">
+
+<lable for"प्रवासाचे अंतिम ठिकाण : *">प्रवासाचे अंतिम ठिकाण : *</lable>
+<select  class="form-control">
+<option value="Select Destination Point District">Select Destination Point District</option>
+<option value="Wardha">Wardha</option>
+<option value="Akola">Akola</option>
+<option value="Nagpur">Nagpur</option>
+<option value="Beed">Beed</option>
+<option value="Latur">Latur</option>
+<option value="Washim">Washim</option>
+</select>
+
+</div>
+</div>
+
+
+<div class="col-sm-12 col-lg-3">
+<div class="form group form-group-lg">
+सहप्रवासी संख्या : *<input type="text" class="form-control" name="सहप्रवासी संख्या : *" placeholder="सहप्रवासी संख्या "id="de"/>
+<br>
+</div>
+</div>
+</div>
+
+
+<div class="row">
+<div class="col-sm-12 col-lg-6">
+<div class="form group form-group-lg">
+प्रवासाच्या अंतिम ठिकाणचा पत्ता : *<input type="प्रवासाच्या अंतिम ठिकाणचा पत्ता : * "class="form-control" name="प्रवासाच्या अंतिम ठिकाणचा पत्ता : *" placeholder="Enter Destination Address"id="ue"/>
+
+</div>
+</div>
+
+
+<div class="col-sm-12 col-lg-6">
+<div class="form group form-group-lg">
+
+
+<lable for=आपण कंटेन्ट झोनमधील आहात का? (Are you from containment zone?) : * style="color:red"id="ld">आपण कंटेन्ट झोनमधील आहात का? (Are you from containment zone?) : *</lable><br>
+<select class="form-control">
+<option value="Are you from containment zone?">Are you from containment zone?</option>
+<option value="No">No</option>
+<option value="Yes">Yes</option>
+</select>
+<br>
+</div>
+</div>
+</div>
+
+
+
+<div class="row">
+<div class="col-sm-12 col-lg-6">
+<div class="form group form-group-lg">
+
+<lable for="आपण परतीचा प्रवास याच मार्गने करणार आहात का ? : *">आपण परतीचा प्रवास याच मार्गने करणार आहात का ? : *</lable>
+
+<select  class="form-control">
+<option value="Are you planning to return via same route?">Are you planning to return via same route?</option>
+<option value="No">No</option>
+<option value="Yes">Yes</option>
+</select>
+
+</div>
+</div>
+</div>
+</div>
+<br>
+<div class="row">
+<div class="col-sm-12 col-lg-12">
+<center><a href="https://tinypng.com/"><blink><img src="star.jpg" width=20px height=20px></blink> इमेज कॉम्प्रेस (साईझ कमी) करण्यासाठी येथे क्लिक करा<blink><img src="star.jpg" width=20px height=20px></blink> </a></center>
+</div>
+  </div>
+
+<div id="vk">
+<div class="row">
+<div class="col-sm-12 col-lg-12">
+<center><p>फोटो व कागदपत्रे जोडा</p></center>
+<center><p>(Attach Photo and Documents)</p></center>
+<br>
+</div>
+</div>
+
+<div class="row">
+<div class="col-sm-12 col-lg-6">
+<button type="button" value="Enable Webcam style="color:white">Enable Webcam</button>
+</div>
+
+
+
+<div class="col-sm-12 col-lg-3">
+      
+          
+        <h4>Attach Your Photo:</h4>
+	
+       
+
+
+	
+	   <img src="men.png" height=180px width=200px> <br>
+           <br>
+	   <input type="button" value="Choose File"/<p>No file Chosen</p>
+	   <p style="color:red">इमेजची साईझ 200 kb च्या वर नसावी.</p>
+	
+ </div>
+
+
+
+<div class="col-sm-12 col-lg-3 ">
+<lable for="Attach Relevant Document: *">Attach Relevant Document: *</lable><br>
+<br>
+<lable for="(Valid Organization Document/Medical Report<br>/Company ID/Aadhaar card etc.)<br>"style="color:red">(Valid Organization Document/Medical Report<br>/Company ID/Aadhaar card etc.)<br></lable><br>
+
+<input type="file" name="Choose file" value="choose file"/><br>
+</div>
+</div>
+<br>
+
+<div class="row">
+<div class="col-sm-3  col-lg-3 pull-right">
+<lable for="Attach Doctor Certificate / Fitness Certificate<br>(Not having Covid-19 Symptoms)<br>"style="color:red">Attach Doctor Certificate / Fitness Certificate<br>(Not having Covid-19 Symptoms)<br></lable><br>
+
+
+<input type="file" name="choose file" value="choose file"/> <br>
+
+<br>
+<lable for="प्रत्येक फाईलची साईझ 1 MB च्या वर नसावी."style="color:red">प्रत्येक फाईलची साईझ 1 MB च्या वर नसावी.</lable><br>
+</div>
+</div>
+</div>
+<br>
+<br>
+
+
+<div class="row">
+<div class="col-sm-12 col-lg-12">
+<div class="maindiv"> 
+<center><button type="submit"value="Submit"style="color:white"id="bm">submit</button></center>
+</div>
+<br>
+<br>
+</div>
+</div>
+</div>
+<br>
+<br>
+<br>
+<footer class="blockquote-footer text-center "><b>darshan kakpure<cite title="Source Title">Source Title<b></cite></footer>
+
+<div class="centerdiv">
+<r href="#">
+<i class="fa fa-2x fa-facebook"></i>
+</r>
+<r href="#">
+<i class="fa fa-2x fa-instagram"></i>
+</r>
+<r href="#">
+<i class="fa fa-2x fa-youtube"></i>
+</r>
+<r href="#">
+<i class="fa fa-2x fa-twitter"></i>
+</r>
+<r href="#">
+<i class="fa fa-2x fa-linkedin"></i>
+</r>
+</div>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
